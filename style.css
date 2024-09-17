@@ -3,3 +3,77 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+.upper-container{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-snowy-landscape-wallpaper-with-trees-snow-white-winter-image_2935694.jpg);
+    min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 600px;
+    background-color:rgba(235, 230, 230, 0.292);
+    width: 90%;
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    padding: 60px 40px;  
+}
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.heading-container p {
+ font-size: 0.8rem;
+ text-align: center;
+ color: rgb(52, 50, 50);
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label{
+    font-size: 1.3rem;
+}
+.input-feild{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.input-feild input{
+    outline: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border:none;
+}
+
+.button-container{
+    display: inline-block;
+    align-self: center;
+    padding: 10px 40px;
+    border-radius:3px;
+    border: none;
+    font-size: 1.1rem;
+    background-image: linear-gradient(to bottom left, #f1f1f1, #373636 );
+
+}
