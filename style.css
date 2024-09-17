@@ -61,7 +61,7 @@ label{
 
 .input-feild input{
     outline: none;
-    padding: 10px 20px;
+    padding: 14px;
     font-size: 1.2rem;
     border-radius: 4px;
     border:none;
@@ -75,5 +75,6 @@ label{
     border: none;
     font-size: 1.1rem;
     background-image: linear-gradient(to bottom left, #f1f1f1, #373636 );
+    margin-top: 40px;
 
 }
